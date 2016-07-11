@@ -1,0 +1,23 @@
+{
+  "name": "lull-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th0th/lull.git"
+  },
+  "author": "Gökhan Sarı <me@th0th.me>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/th0th/lull/issues"
+  },
+  "homepage": "https://github.com/th0th/lull#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.6.3"
+  }
+}

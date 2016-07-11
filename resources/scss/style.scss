@@ -1,0 +1,114 @@
+$color-dark: #2C303B;
+$color-orange: #F58545;
+
+$fa-font-path: "../fonts";
+$btn-primary-bg: $color-orange;
+
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../node_modules/font-awesome/scss/font-awesome";
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900&subset=latin,latin-ext);
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #424242;
+}
+
+.flat {
+  border-radius: 0;
+}
+
+header {
+  padding-bottom: 40px;
+  background: $color-dark;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 10px $color-dark;
+
+  a.logo {
+    display: block;
+    width: 140px;
+    margin: 20px auto 20px auto;
+  }
+
+  .app-name {
+    font-size: 48px;
+  }
+
+  div.buttons {
+    margin-top: 40px;
+    font-size: 0;
+
+    div.button-wrapper {
+      display: inline-block;
+      font-size: 16px;
+
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+
+      @media all and (max-width: $screen-sm-max) {
+        display: block;
+
+        &:not(:last-child) {
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      }
+
+      .btn {
+        margin-bottom: 6px;
+      }
+
+      p.description {
+
+      }
+    }
+  }
+}
+
+section#screenshots {
+  padding: 40px 0;
+
+  div.section {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      margin: 0 0 20px 0;
+    }
+
+    a.screenshot {
+      display: block;
+      border: 1px solid #ededeb;
+      box-shadow: 0 0 10px #ccc;
+    }
+  }
+}
+
+footer {
+  padding: 20px 0;
+  background: $color-dark;
+  color: #fff;
+  box-shadow: 0 0 10px $color-dark;
+
+  div.social-links {
+    text-align: center;
+    font-size: 0;
+
+    a {
+      display: inline-block;
+      font-size: 24px;
+      color: inherit;
+
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+    }
+  }
+
+  p.copyright {
+    margin-top: 20px;
+  }
+}
