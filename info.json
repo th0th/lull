@@ -4,8 +4,8 @@
   "latest": {
     "version": "0.1.0",
     "urls": {
-      "win32": "http://th0th.github.io/lull/download/lull-0.1.0.msi",
-      "darwin": "http://th0th.github.io/lull/download/lull-0.1.0.zip"
+      "win32": "https://github.com/th0th/lull/releases/download/0.1.0/lull.msi",
+      "darwin": "https://github.com/th0th/lull/releases/download/0.1.0/lull.zip"
     }
   }
 }
